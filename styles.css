@@ -1,0 +1,14 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5A5A5A;
+    background-color: beige;
+}
+
+.PageTitle {
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    float: right;
+}

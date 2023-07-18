@@ -1,14 +1,43 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5A5A5A;
-    background-color: beige;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
 }
 
 .PageTitle {
     text-align: center;
+    padding: 1em;
+    border-bottom: thick solid #5A5A5A;
+}
+
+.RecipieLinks {
+    background-color: #5A5A5A;
+    border-color: #5A5A5A;
+    border-style: solid;
+    width: 70%;
+    margin: auto;
+}
+
+.Content {
+    margin: 10px;
+}
+
+a, a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: beige;
 }
 
 img {
     width: 500px;
     float: right;
+    margin: 10px;
 }
